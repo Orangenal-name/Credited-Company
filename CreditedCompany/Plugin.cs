@@ -13,7 +13,7 @@ namespace CreditedCompany
     {
         private const string GUID = "CreditedCompany";
         private const string NAME = "Credited Company";
-        private const string VERSION = "1.0.0";
+        private const string VERSION = "1.0.1";
 
         private readonly Harmony harmony = new Harmony(GUID);
 
