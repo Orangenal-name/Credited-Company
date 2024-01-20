@@ -52,7 +52,13 @@ namespace CreditedCompany
             {
                 text += credit + "\n";
                 if (credit.Contains("\n"))
-                    sizeToAdd += (100 / 6);
+                {
+                    string[] substrings = credit.Split('\n');
+
+                    int newlineCount = substrings.Length - 1;
+
+                    sizeToAdd += (100 / 6)*newlineCount;
+                } 
             }
 
             rect.sizeDelta = new Vector2(rect.sizeDelta.x, rect.sizeDelta.y + sizeToAdd);
