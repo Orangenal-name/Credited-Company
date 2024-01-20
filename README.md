@@ -1,13 +1,7 @@
-# LethalComFunny
-A mod for Lethal Company which lets you do funny stuff!<br>
-Become a funny asset to the company.
+# Credited Company
+This is just a small library to allow mod developers to add their names to the game's credits, simple!
 
-## Current features
-- Spawn mines by pressing Y
+## How to use
+CreditedCompany.Plugin.credits.Add("Your name here");
 
-## Planned features
-- pick up mines?
-
-## I have no ideas
-If you have ideas for the mod, ping me on the [lethal company modding discord](https://discord.gg/nYcQFEpXfU)!<br> (my username is orangenaln)<br>
-(also ping me if you find bugs)
+![Image](./Credits.png "Credits list with mods developers added")
